@@ -206,6 +206,7 @@ font-weight: bolder;
      color: #00FF88;
     font-size: 16px;
     font-weight: bold;
+   
 
 }
 
@@ -249,34 +250,42 @@ font-weight: bolder;
 
 
 .grid-section{
-     padding: 50px 200px 120px 200px;
-     height: 800px;
+     padding: 100px 200px 200px 200px;
+     height: 790px;
+     
+
+
 }
 
 
 .grid-content h1{
     text-align: center;
     
+
+    
     
 }
 
 .grid-container{
-    padding: 30px;
+    padding: 37px;
+    
+   
 }
 .grid-content{
     display: grid;
+    
 
     
 }
 
-.grid-content div{
-border: 3px solid red;
-}
+
 
 .grid-1{
     display: grid;
     grid-column: span 1;
     grid-row: span 2;
+    padding: 20px;
+    border-radius: 30px;
 
 
 
@@ -286,7 +295,8 @@ border: 3px solid red;
     display: grid;
     grid-column: span 2;
     grid-row: span 1;
-
+    padding: 20px;
+border-radius: 30px;
 
 }
 
@@ -294,31 +304,263 @@ border: 3px solid red;
     display: grid;
     grid-column: span 2;
     grid-row: span 1;
-
+padding: 20px;
+border-radius: 30px;
 }
 
 .grid-4{
     display: grid;
     grid-column: span 2;
     grid-row: span 1;
-
+    padding: 25px;
+    padding-bottom: 40px;
+   
+    
+border-radius: 30px;
 }
 
 .grid-5{
     display: grid;
     grid-column: span 1;
     grid-row: span 2;
-
+         padding: 20px;
+         border-radius: 30px;
 }
 
 .grid-container{
     display: grid;
-        gap: 30px;
+    gap: 25px;
+    
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 
 .grid-section{
-    /* background-color: #a798ba; */
+    background-color: #230E3D;
+    
+
 }
 
+.grid-content h1{
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.grid-container div h3{
+   color: white;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.grid-container div p{
+    color: rgb(134, 131, 131);
+    font-size: 15px;
+}
+
+.grid-container div{
+    gap: 7px;
+    background-color: #2e0e58;
+
+
+}
+
+.yt-section{
+    padding: 120px 200px 80px 200px;
+    /* text-align: center; */
+
+    
+}
+
+.video{
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    height: 360px;
+    width: 270px;
+    background-color: #351165;
+    
+    
+}
+
+.video-yt{
+    border-radius: 30px 30px 0px 0px;
+    width: 270px;
+    height: 150px;
+   
+   
+}
+
+.min{
+    display: flex;
+    gap: 9px;
+    padding-top: 23px;
+    
+    
+}
+
+
+
+.yt-video-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+    
+
+}
+
+/* section backround */
+  .yt-section{
+
+    background-color: #1A0B2E;
+    
+
+  }
+
+
+
+
+
+.yt-h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.common-class h2{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.common-class p{
+    font-size: 14px;
+    color:  rgb(134, 131, 131);
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.min-class p{
+    color: #00FF88;
+   
+    
+    
+}
+
+.common-class{
+padding-left: 15px;
+padding-top: 20px;
+}
+
+
+
+
+.host-container{
+    display: flex;
+    background-color: #351165;
+    gap: 23px;
+    padding: 31px;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.h2{
+    padding-top: 120px;
+    color: white;
+    text-align: center;
+    padding-bottom: 38px;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.host-logo-container h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.host-logo-container p{
+    font-size: 16px;
+    color:  rgb(134, 131, 131);
+    padding-bottom: 16px;
+}
+
+.social-logo{
+    display: flex;
+    gap: 18px;
+}
+
+
+.footer-section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   height: 410px;
+   padding-top: 100px;
+
+    background-image: url(../all-img/footer-bg.png);
+
+    background-position: center;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+
+   
+   
+}
+
+.foot-logo h1{
+    font-size: 70px;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    
+}
+
+.rc-color{
+            background: linear-gradient(80deg, #b3328c, #9100F8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.foter-social-logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .foter-social-logo div{
+    display: flex;
+    gap: 50px;
+  
+    
+    
+} */
+.min-class{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.loogo-container{
+    display: flex;
+    justify-content: center;
+   color:  rgb(134, 131, 131);
+    padding-bottom: 32px;
+    gap: 40px;
+    
+}
+
+.copy-right{
+    font-size: 15px;
+    color: rgb(134, 131, 131);
+    padding-top: 10px;
+}
